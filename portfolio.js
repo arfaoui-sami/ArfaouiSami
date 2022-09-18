@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm software engineer, Full Stack developer having an experience of web applications with JAVA, SpringBot, ReactJs, NodeJs,NextJs , Mobile Application with java ,DevOps and Cloud Infrastructure",
 	resumeLink:
-		"https://docs.google.com/document/d/1HUvdg-Iscxp2qItVPeVL9rYT5boz5PDj/edit?usp=sharing&ouid=112450811694477829618&rtpof=true&sd=true",
+		"https://drive.google.com/file/d/1wGxEjfXcf3Ov9Dv3zVFlsiJWWTywTCj2/view?usp=sharing",
 };
 
 export const openSource = {
