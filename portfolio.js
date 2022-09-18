@@ -229,6 +229,8 @@ export const experience = [
 	},
 ];
 
+
+
 export const projects = [
 	{
 		name: "Mobile Application  facial recognition",
