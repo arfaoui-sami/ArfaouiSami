@@ -184,8 +184,8 @@ export const educationInfo = [
 		desc: "Development Mobile Web application ",
 		grade: "Grade A",
 		descBullets: [
-			"Programming and Build Multiple Application web,Mobile",
-			"Using multiple method for Build Infrastructure cloud",
+			"Programming and Building Multiple Application web,Mobile",
+			"Using multiple method for Building Infrastructure cloud",
 		],
 	},
 	{
