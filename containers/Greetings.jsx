@@ -6,7 +6,7 @@ import { Button, Container, Row, Col } from "reactstrap";
 import GreetingLottie from "../components/DisplayLottie";
 import SocialLinks from "../components/SocialLinks";
 
-const Greetings = () => {
+const Greetings = ({ prof }) => {
 	useEffect(() => {
 		document.documentElement.scrollTop = 0;
 		document.scrollingElement.scrollTop = 0;
@@ -16,15 +16,8 @@ const Greetings = () => {
 			<div className="position-relative">
 				<section className="section section-lg section-shaped pb-250">
 					<div className="shape shape-style-1 bg-gradient-info">
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
-						<span />
+
+
 					</div>
 					<Container className="py-lg-md d-flex">
 						<div className="col px-0">
@@ -32,11 +25,20 @@ const Greetings = () => {
 								<Col lg="6">
 									<h1 className="display-3 text-white">
 										{greetings.title + " "}
+										<Col className="order-lg-2" lg="4">
+											<img
+												src={prof.avatar_url}
+												style={{ width: "200px" }}
+												alt=""
+												className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
+											/>
+										</Col>
 									</h1>
 									<p className="lead text-white">
 										{greetings.description}
 									</p>
 									<SocialLinks />
+
 									<div className="btn-wrapper my-4">
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
@@ -49,15 +51,17 @@ const Greetings = () => {
 											<span className="btn-inner--text">
 												See My Resume
 											</span>
+
 										</Button>
 									</div>
 								</Col>
-								<Col lg="6">
+								<Col lg="5">
 									<GreetingLottie animationPath="/lottie/coding.json" />
 								</Col>
 							</Row>
 						</div>
 					</Container>
+
 					{/* SVG separator */}
 					<div className="separator separator-bottom separator-skew">
 						<svg
@@ -67,6 +71,7 @@ const Greetings = () => {
 							viewBox="0 0 2560 100"
 							x="0"
 							y="0"
+
 						>
 							<polygon
 								className="fill-white"

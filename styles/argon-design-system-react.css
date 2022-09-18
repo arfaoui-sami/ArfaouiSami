@@ -21,7 +21,7 @@
 }
 
 #nav-title {
-	font-family: Augestina;
+	font-family: "Rage Italic";
 	text-transform: capitalize;
 }
 
@@ -14410,7 +14410,7 @@ button.bg-lighter:focus {
 }
 
 .bg-gradient-info {
-	background: linear-gradient(35deg, #11cdef 0, #1171ef 100%) !important;
+	background: linear-gradient(35deg, #5e6687 0, #6985 100%) !important;
 }
 
 .bg-gradient-warning {
@@ -14705,7 +14705,7 @@ button.section-darker:focus {
 }
 
 .bg-gradient-info {
-	background: linear-gradient(35deg, #11cdef 0, #1171ef 100%) !important;
+	background: linear-gradient(35deg, #558 0, #556 100%) !important;
 }
 
 .bg-gradient-warning {
@@ -16821,7 +16821,7 @@ textarea[resize="horizontal"] {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	border-radius: 50%;
+	border-radius: 100%;
 }
 .icon-shape i,
 .icon-shape svg {
@@ -16841,7 +16841,7 @@ textarea[resize="horizontal"] {
 }
 
 .icon-shape-primary {
-	color: #2643e9;
+	color: #669;
 	background-color: rgba(138, 152, 235, 0.5);
 }
 
@@ -18838,7 +18838,7 @@ p {
 .display-3 span,
 .display-4 span {
 	display: block;
-	font-weight: 300;
+	font-italic: 300;
 }
 
 article h4:not(:first-child),
