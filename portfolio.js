@@ -17,7 +17,7 @@ export const contact = {};
 
 export const socialLinks = {
 
-	linkedin: "https://www.linkedin.com/in/arfaoui-sami-b32645162/",
+	linkedin: "https://www.linkedin.com/in/sami-arfaoui-984947295/",
 	github: "https://github.com/arfaoui-sami",
 	instagram: "https://www.instagram.com/samiarfaoui__/",
 	facebook: "https://www.facebook.com/people/Sami-Arfaoui/100012490392139/",
